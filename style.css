@@ -1,0 +1,144 @@
+.head{
+    background-color: royalblue;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 100px;
+    font-size: 24px;
+    margin-left: 11px;
+    margin-right: 11px;
+    padding: 20px;
+    font-family: Arial;
+}
+.head:hover{
+    background-color: white;
+    color: royalblue;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.tracker{
+    text-align: center;
+    border-radius: 10px;
+}
+#tracker{
+    color: grey;
+    border-radius: 5px;
+    height: 34px;
+    width: 250px;
+}
+.listStyle{
+    border-radius: 7px;
+    background-color: royalblue;
+    margin-right: 150px;
+    color: white;
+    margin-left: -40px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.income{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+}
+.main{
+
+    border-radius: 10px;
+}
+.balance{
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+.balance-value{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 12px;
+    margin-left: 4px;
+    padding: 10px;
+}
+.added{
+    width: 163px;
+    height: 35px;
+    border-radius: 4px;
+    margin-left: 11px;
+    background-color: royalblue;
+    color: white;
+    margin-top: 5px;
+}
+.expense{
+    margin-top: -12px;
+    font-size: 20px;
+    margin-left: 11px;
+    margin-right: 11px;
+    font-family: Arial, sans-serif;
+    color: royalblue;
+    height: 30px;
+}
+#expense-Val{
+    margin-left: 11px;
+    margin-right: 11px;
+    width: 351px;
+    color: rgb(98, 98, 98);
+    border-radius: 4px;
+    height: 30px;
+    border: solid grey 2px;
+}
+#expense-Val:hover{
+    margin-left: 11px;
+    margin-right: 11px;
+    width: 351px;
+    color: rgb(98, 98, 98);
+    border-radius: 4px;
+    height: 30px;
+    text-decoration: underline;
+}
+option{
+    background-color: royalblue;
+    color: white;
+}
+select{
+    width: 165px;
+    border-radius: 4px;
+    border: solid grey 2px;
+    background-color: royalblue;
+    color: white;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+#date{
+    width: 184px;
+    border-radius: 4px;
+    margin-top: 10px;
+    height: 30px;
+}
+.value{
+    display: flex;
+    font-family: Arial;
+    margin-left: 30px;
+}
+p{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+#val{
+    background-color: royalblue;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 11px;
+    margin-left: 11px;
+}
+#value{
+    display: flex;
+}
+#list
+{
+    margin-left: 10px;
+}

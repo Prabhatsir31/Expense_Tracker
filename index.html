@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" id="main">
+        <h1 class="head">Expense Tracker</h1>
+        <div class="tracker">
+            <input id="tracker" required="required" placeholder="Enter Your Income..." maxlength="500" type="number">
+            <button class="income" onclick="addIncome()">Add Income</button>
+        </div>
+        <div id="bal" class="balance">
+            <h1 class="balance-value" id="get">
+                Your Balance 
+                <h1 id="h"></h1>
+            </h1>
+            <br>
+            <br>
+            <h1 id="amount"></h1>
+        </div>
+        <h1 class="expense">Add Expense</h1>
+        <input type="number" required="required" maxlength="10" placeholder="Enter Amount" id="expense-Val">
+        <input id="date" type="date">
+        <select id="select">
+            <option value="Categories">Categories</option>
+            <option value="Car">Car</option>
+            <option value="Bike">Bike</option>
+            <option value="Education">Education</option>
+            <option value="Food">Food</option>
+            <option value="Gift">Gift</option>
+            <option value="Groceries">Groceries</option>
+            <option value="Health">Health</option>
+            <option value="House">House</option>
+            <option value="Rent">Rent</option>
+            <option value="Shopping">Shopping</option>
+            <option value="Tranport">Tranport</option>
+            <option value="Vocation">Vocation</option>
+        </select>
+        <button class="added" onclick="add()">Add Expense</button>
+        <br>
+        <div id="val">
+            <div class="value">
+                <p>Date</p>
+                <p>Category</p>
+                <p>Amount</p>
+                <p>Delete</p>
+                <p>Edit</p>
+            </div>
+            <ul id="list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
